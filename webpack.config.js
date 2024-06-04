@@ -4,10 +4,8 @@ module.exports = {
 
    devServer: {
       static: {
-         directory: path.resolve(__dirname, "src")
-      },
-      compress: true,
-      port: 8000
+         directory: path.resolve(__dirname, "public")
+      }
    },
 
    entry: {
