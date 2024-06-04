@@ -1,0 +1,23 @@
+{
+  "name": "exercicio-03",
+  "version": "1.0.0",
+  "description": "Exercicio 17 - Estruturando um projeto moderno",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "babel src -d dist",
+    "build": "npx webpack"
+  },
+  "author": "Fatinha",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.24.6",
+    "@babel/core": "^7.24.6",
+    "@babel/preset-env": "^7.24.6",
+    "babel-loader": "^9.1.3",
+    "css-loader": "^7.1.2",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
