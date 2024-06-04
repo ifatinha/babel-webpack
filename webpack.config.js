@@ -13,7 +13,7 @@ module.exports = {
       hello: "./src/js/hello.js"
    },
 
-   mode: "development",
+   mode: "production",
 
    output: {
       path: path.resolve(__dirname, 'public'),
